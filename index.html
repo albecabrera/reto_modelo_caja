@@ -5,25 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reto modelo caja</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+        .contenedor {
+            height: 80px;
+            background:rgb(187, 255, 0);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .contenedor div {
+            width: 80px;
+            height: 80px;
+        }
+        
+    </style>
 </head>
 
 <body>
-    <div class="caja">
-        <h1>Bienvenido a Nuestra Landing Page de Comida</h1>
-    <div>
-        <div class="caja2">
-            <h2>Producto 1</h2>
-            <p>Descripción del proyecto. Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            <p>Ver Más</p>
-        </div>
-        <div class="caja3">
-            <h2>Producto 2</h2>
-            <p>Descripción del proyecto. Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            <p>Ver Más</p>
-        </div>
+    <div class="contenedor">
+        <div style="background: rgb(red, green, blue);"></div>
+        <div style="background: rgb(255, 0, 0);"></div>
+        <div style="background: rgb(0, 255, 0);"></div>
+        <div style="background: rgb(0, 0, 255);"></div>
+        <div style="background: rgb(255, 255, 0);"></div>
+        <div style="background: rgb(255, 0, 255);"></div>
+        <div style="background: rgb(0, 255, 255);"></div>
+        <div style="background: rgb(255, 255, 255);"></div>
     </div>
-    
+    </div>
+
 
 </body>
 
